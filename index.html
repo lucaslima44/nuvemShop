@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Nuvem Shop</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">Nuvem Shop</div>
+      <nav>
+        <ul>
+          <li>Home</li>
+          <li>Product</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="techCircle">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+
+      <div class="list">
+        <div class="item active">
+          <div class="productImg">
+            <img src="/img/apple-watch.png" alt="Apple Watch Series 10" />
+          </div>
+          <div class="content">
+            <p class="productTag">Novo Lançamento</p>
+            <p class="productName">Apple Watch Series 10</p>
+            <p class="productDescription">
+              O Apple Watch Series 10 traz design elegante e tela maior. Potente
+              chip S10 impulsiona recursos avançados de saúde e conectividade
+              (celular opcional). Bateria para o dia todo e diversas opções de
+              personalização.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="productImg">
+            <img src="/img/air-pods.png" alt="AirPods Max" />
+          </div>
+          <div class="content">
+            <p class="productTag">Som Premium</p>
+            <p class="productName">AirPods Max</p>
+            <p class="productDescription">
+              Os AirPods Max combinam áudio de alta fidelidade com design
+              elegante em alumínio e almofadas de espuma viscoelástica. Oferecem
+              cancelamento de ruído ativo líder do setor e áudio espacial
+              personalizado com rastreamento dinâmico da cabeça para uma
+              experiência imersiva. A bateria proporciona até 20 horas de áudio,
+              chamadas ou reprodução de filmes com apenas uma carga. Acompanham
+              Smart Case para armazenamento e modo de ultrabaixa energia.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="productImg">
+            <img src="/img/vision-pro.png" alt="Apple Vision Pro" />
+          </div>
+          <div class="content">
+            <p class="productTag">Novo Lançamento</p>
+            <p class="productName">Apple Vision Pro</p>
+            <p class="productDescription">
+              O Apple Vision Pro é um revolucionário computador espacial que
+              integra conteúdo digital ao mundo físico de forma fluida. Através
+              de sua tela 3D de alta resolução e áudio espacial, ele transforma
+              o ambiente ao redor do usuário em uma tela infinita. A interação
+              intuitiva se dá por meio dos olhos, mãos e voz, oferecendo novas
+              maneiras de trabalhar, colaborar e se divertir. Sua arquitetura
+              modular e design elegante combinam desempenho avançado com
+              conforto para uma experiência imersiva sem precedentes.
+            </p>
+            <button class="btn">Saiba Mais</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="arrows">
+        <button class="arrowBtn" id="prev">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="#fff"
+            class="bi bi-caret-left-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"
+            />
+          </svg>
+        </button>
+        <button class="arrowBtn" id="next">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="#fff"
+            class="bi bi-caret-right-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <div class="indicators">
+        <div class="numbers">01</div>
+        <div class="dots">
+          <div class="dot active"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
